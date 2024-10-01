@@ -1,0 +1,532 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  background-color: #d305b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.a3 {
+  font-weight: 600;
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  text-shadow: black 2px 2px;
+  text-decoration: none;
+}
+.a3:hover{
+  transform: rotate(20deg);
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+}
+
+.a1 {
+  color: azure;
+  text-decoration: none;
+  font-family: "Kanit", system-ui;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.a1:hover {
+  color: cadetblue;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.Main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.class1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 300px;
+  text-align: center; 
+}
+
+.h1 {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+}
+
+.p1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.get {
+  background-color: #d305b4;
+  color: azure;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.get:hover {
+  background-color: #666;
+}
+
+.class2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+/* Products Section */
+#products {
+  padding: 40px 0;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  margin: 15px;
+  transition: box-shadow 0.3s ease;
+  background-color:#8d5584;
+}
+.h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: #d305b4;
+  padding-bottom: 40px;
+}
+.product-card img {
+  width: 150px;
+  height: 150px;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px black
+}
+.product-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: white;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #f5e9e9;
+}
+
+.product-card button {
+  background-color:antiquewhite;
+  color:#81156f;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #dddada;
+  color: #332e2e;
+}
+.more{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8d5584;
+}
+
+/* About Us Section */
+#about {
+  background-color: antiquewhite;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-us-text {
+  flex: 1;
+}
+
+.about-us-text h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us-text p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-us-text strong {
+  color: #f5a623;
+}
+.cta-btn {
+  background-color: #d305b4;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+.cta-btn:hover {
+  background-color: #e69500;
+}
+.about-us-image {
+  flex: 1;
+}
+.about-us-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.reviews {
+  padding: 40px 0;
+  background-color:bisque;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color:#d305b4;
+  text-shadow:#1e1919 1px 1px;
+}
+
+.reviews-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.review-card h4 {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.review-card:hover{
+  box-shadow: 0 0 10px black
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+width: 100%;  margin: 0 auto;
+}
+
+.footer-section {
+  margin: 15px;
+}
+
+.footer-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #d305b4;
+}
+.contact{
+  margin-bottom: 100px;
+}
+.links{
+  margin-bottom:40px ;
+
+}
+.footer-section li{
+  list-style: none;
+
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 1em;
+  line-height: 1.8;
+  color: white;
+}
+
+.footer-section a {
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+  width: 140px;
+  text-align: center;
+}
+
+.footer-section a:hover {
+  color: #f5a623;
+}
+
+/* Social Media */
+.social-media a {
+  color: white;
+  margin-right: 15px;
+  font-size: 1.5em;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  margin-right: 10px;
+}
+@media (max-width: 1440px) {
+ .h2{
+  margin-top: 140px;
+ }
+}
+
+@media (max-width: 1024px) {
+
+  .about-us-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-us-text {
+    margin-bottom: 30px;
+  }
+  .about-us-text h2 {
+    font-size: 2.5em;
+  }
+  .about-us-text p {
+    font-size: 1.1em;
+  }
+  .cta-btn {
+    font-size: 1.1em;
+    padding: 12px 25px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .h2{
+    margin-top: -30px;
+   }
+  nav {
+    display: none; 
+    flex-direction: column;
+    width: 100%;
+    background-color: #d305b4;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 20px 0;
+  }
+  nav.show {
+    display: flex; 
+  }
+  .menu-icon {
+    display: block; 
+
+  .a1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+  }
+}
+  .Main {
+    height: auto;
+  }
+  .class1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .class2 img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .h1 {
+    font-size: 30px;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  .get {
+    width: 100px;
+    font-size: 16px;
+  }
+  #footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  .social-media a {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+  .about-us-text h2 {
+    font-size: 2em;
+  }
+  .about-us-text p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  .cta-btn {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h3 {
+    font-size: 22px;
+  }
+  .a1 {
+    font-size: 18px;
+  }
+  .menu-icon {
+    font-size: 28px;
+  }
+  .Main {
+    flex-direction: column;
+    height: auto;
+  }
+  .class1 {
+    width: 100%;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+  .p1 {
+    font-size: 18px;
+  }
+  .get {
+    width: 90px;
+    font-size: 14px;
+  }
+  .class2 img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .footer-section h2 {
+    font-size: 1.2em;
+  }
+  .footer-section p,
+  .footer-section a {
+    font-size: 0.9em;
+  }
+  .social-media a {
+    font-size: 1em;
+    margin: 0 5px;
+  }
+  .about-us-content {
+    padding: 0 10px;
+  }
+  .about-us-text h2 {
+    font-size: 1.8em;
+  }
+  .about-us-text p {
+    font-size: 0.9em;
+  }
+  .cta-btn {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+  .about-us-image img {
+    width: 90%;
+  }
+}
